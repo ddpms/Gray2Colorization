@@ -91,6 +91,7 @@ def get_loaders(args):
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
     from args import get_args
+    from utils import *
 
     args = get_args()
 
